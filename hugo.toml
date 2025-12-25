@@ -1,0 +1,21 @@
+baseURL = "http://localhost:1313/"
+languageCode = "vi"
+title = "Blog Lập Trình Mạng"
+theme = "PaperMod"
+
+[params]
+  author = "Võ Tấn Tài"
+  description = "Chia sẻ kiến thức lập trình Java & JavaScript"
+  ShowReadingTime = true
+  ShowShareButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
