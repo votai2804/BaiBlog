@@ -1,21 +1,23 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://github.com/votai2804/BaiBlog.git" # Thay bằng link GitHub của bạn
 languageCode = "vi"
 title = "Blog Lập Trình Mạng"
 theme = "PaperMod"
 
 [params]
   author = "Võ Tấn Tài"
-  description = "Chia sẻ kiến thức lập trình Java & JavaScript"
+  description = "Blog chia sẻ kiến thức Java & JavaScript"
   ShowReadingTime = true
-  ShowShareButtons = true
 
 [menu]
   [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-
   [[menu.main]]
     name = "Blog"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "Profile"
+    url = "/about/" # Trang giới thiệu bản thân
+    weight = 3

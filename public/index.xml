@@ -2,18 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/votai2804/BaiBlog.git/</link>
     <description>Recent content on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
-    <lastBuildDate>Thu, 25 Dec 2025 22:58:45 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bai So 1</title>
-      <link>http://localhost:1313/posts/bai-so-1/</link>
-      <pubDate>Thu, 25 Dec 2025 22:58:45 +0700</pubDate>
-      <guid>http://localhost:1313/posts/bai-so-1/</guid>
-      <description></description>
+      <title>Bài 1: Socket Programming trong Java là gì?</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</guid>
+      <description>&lt;p&gt;Lập trình Socket là nền tảng của lập trình mạng. Trong Java, chúng ta sử dụng thư viện &lt;code&gt;java.net&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ví dụ tạo một Server đơn giản:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ServerSocket server &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; ServerSocket(8080);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Socket client &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; server.&lt;span style=&#34;color:#a6e22e&#34;&gt;accept&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Xử lý dữ liệu...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu bản thân</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/about/</guid>
+      <description>&lt;h3 id=&#34;xin-chào-mình-là-võ-tấn-tài-&#34;&gt;Xin chào, mình là Võ Tấn Tài! 👋&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sinh viên:&lt;/strong&gt; Ngành Công nghệ thông tin.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sở thích:&lt;/strong&gt; Lập trình hệ thống và mạng máy tính.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kỹ năng:&lt;/strong&gt; Java, JavaScript, Git, Hugo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mục tiêu:&lt;/strong&gt; Chia sẻ những kiến thức hữu ích về lập trình mạng đến cộng đồng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kết nối với mình qua &lt;a href=&#34;https://github.com/yourusername&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
