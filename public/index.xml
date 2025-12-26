@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/votai2804/BaiBlog.git/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
-    <lastBuildDate>Fri, 26 Dec 2025 10:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Patterns - Những &#39;mẫu thiết kế&#39; cứu cánh cho lập trình viên</title>
+      <link>http://localhost:1313/posts/bai-so-5/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/bai-so-5/</guid>
+      <description>Giới thiệu 3 mẫu Design Patterns kinh điển (Singleton, Observer, Factory) giúp giải quyết các vấn đề phổ biến trong thiết kế phần mềm.</description>
+    </item>
     <item>
       <title>Docker là gì? Tại sao lập trình viên hiện đại cần biết?</title>
-      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-4/</link>
+      <link>http://localhost:1313/posts/bai-so-4/</link>
       <pubDate>Fri, 26 Dec 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-4/</guid>
+      <guid>http://localhost:1313/posts/bai-so-4/</guid>
       <description>Giải thích khái niệm Docker, Container và lý do tại sao công nghệ này lại quan trọng để giải quyết vấn đề &amp;#39;Code chạy trên máy tôi nhưng không chạy trên Server&amp;#39;.</description>
     </item>
     <item>
       <title>Đừng chỉ git push, hãy học Git Flow để làm việc nhóm</title>
-      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-3/</link>
+      <link>http://localhost:1313/posts/bai-so-3/</link>
       <pubDate>Fri, 26 Dec 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-3/</guid>
+      <guid>http://localhost:1313/posts/bai-so-3/</guid>
       <description>Tìm hiểu quy trình Git Flow để quản lý mã nguồn hiệu quả, tránh xung đột khi làm việc nhóm.</description>
     </item>
     <item>
       <title>RESTful API là gì? So sánh nhanh ASP.NET Core và Node.js</title>
-      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-2/</link>
+      <link>http://localhost:1313/posts/bai-so-2/</link>
       <pubDate>Fri, 26 Dec 2025 08:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-2/</guid>
+      <guid>http://localhost:1313/posts/bai-so-2/</guid>
       <description>Tìm hiểu về RESTful API và cách lựa chọn giữa hai công nghệ phổ biến nhất hiện nay: ASP.NET Core và Node.js.</description>
     </item>
     <item>
       <title>Kỹ thuật viết mã nguồn sạch (Clean Code) cho người mới</title>
-      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</link>
+      <link>http://localhost:1313/posts/bai-so-1/</link>
       <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</guid>
+      <guid>http://localhost:1313/posts/bai-so-1/</guid>
       <description>Clean Code không phải là làm cho mã chạy nhanh hơn, mà là làm cho mã dễ đọc và dễ bảo trì hơn.</description>
     </item>
     <item>
       <title>Giới thiệu bản thân</title>
-      <link>http://localhost:1313/votai2804/BaiBlog.git/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/votai2804/BaiBlog.git/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h3 id=&#34;xin-chào-mình-là-võ-tấn-tài-&#34;&gt;Xin chào, mình là Võ Tấn Tài! 👋&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Sinh viên:&lt;/strong&gt; Ngành Công nghệ thông tin.&lt;/li&gt;

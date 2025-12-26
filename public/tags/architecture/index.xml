@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Architecture on Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/tags/architecture/</link>
+    <description>Recent content in Architecture on Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Patterns - Những &#39;mẫu thiết kế&#39; cứu cánh cho lập trình viên</title>
+      <link>http://localhost:1313/posts/bai-so-5/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/bai-so-5/</guid>
+      <description>Giới thiệu 3 mẫu Design Patterns kinh điển (Singleton, Observer, Factory) giúp giải quyết các vấn đề phổ biến trong thiết kế phần mềm.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,12 +1,27 @@
-baseURL = "https://github.com/votai2804/BaiBlog.git" # Thay bằng link GitHub của bạn
+baseURL = "https://yourusername.github.io/"
 languageCode = "vi"
 title = "Blog Lập Trình Mạng"
 theme = "PaperMod"
+paginate = 3  # <--- Dòng này quy định chỉ hiện 3 bài mới nhất ở trang chủ
 
 [params]
   author = "Võ Tấn Tài"
-  description = "Blog chia sẻ kiến thức Java & JavaScript"
+  description = "Chia sẻ kiến thức lập trình Java & JavaScript"
   ShowReadingTime = true
+  ShowShareButtons = true
+  
+  # Cấu hình phần giới thiệu to đẹp ở trang chủ
+  [params.homeInfoParams]
+    Title = "Kiến thức mình muốn chia sẻ" 
+    Content = "Chào mừng bạn đến với Blog cá nhân của Võ Tấn Tài. Tại đây mình lưu trữ và chia sẻ những kinh nghiệm về Lập trình mạng, Backend và Clean Code."
+
+  # Các icon mạng xã hội (tùy chọn)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+  [[params.socialIcons]]
+    name = "facebook"
+    url = "https://facebook.com/yourusername"
 
 [menu]
   [[menu.main]]
@@ -19,5 +34,5 @@ theme = "PaperMod"
     weight = 2
   [[menu.main]]
     name = "Profile"
-    url = "/about/" 
+    url = "/about/"
     weight = 3

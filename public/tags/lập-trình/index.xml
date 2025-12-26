@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lập Trình on Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/votai2804/BaiBlog.git/tags/l%E1%BA%ADp-tr%C3%ACnh/</link>
+    <link>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh/</link>
     <description>Recent content in Lập Trình on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
     <lastBuildDate>Fri, 26 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/tags/l%E1%BA%ADp-tr%C3%ACnh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kỹ thuật viết mã nguồn sạch (Clean Code) cho người mới</title>
-      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</link>
+      <link>http://localhost:1313/posts/bai-so-1/</link>
       <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</guid>
+      <guid>http://localhost:1313/posts/bai-so-1/</guid>
       <description>Clean Code không phải là làm cho mã chạy nhanh hơn, mà là làm cho mã dễ đọc và dễ bảo trì hơn.</description>
     </item>
   </channel>
