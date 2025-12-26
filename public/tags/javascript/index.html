@@ -129,6 +129,20 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Hướng dẫn Fetch API: Cách lấy dữ liệu từ Server chuẩn hiện đại
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Fetch API là gì? fetch() là một hàm có sẵn trong mọi trình duyệt hiện đại, dùng để gửi các yêu cầu HTTP (GET, POST, PUT…) đến máy chủ mà không cần thư viện ngoài như Axios hay jQuery.
+1. Gửi yêu cầu GET (Lấy dữ liệu) fetch(&#39;[https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)&#39;) .then(response =&gt; response.json()) .then(json =&gt; console.log(json)); 2. Gửi yêu cầu POST (Tạo dữ liệu mới) fetch(&#39;[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)&#39;, { method: &#39;POST&#39;, headers: { &#39;Content-Type&#39;: &#39;application/json&#39;, }, body: JSON.stringify({ title: &#39;Bài viết mới&#39;, body: &#39;Nội dung bài viết...&#39;, userId: 1, }), }) .then(res =&gt; res.json()) .then(data =&gt; console.log(&#34;Thành công:&#34;, data)); Làm chủ Fetch API là kỹ năng bắt buộc của mọi Frontend Developer!
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-26 14:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
+  <a class="entry-link" aria-label="post link to Hướng dẫn Fetch API: Cách lấy dữ liệu từ Server chuẩn hiện đại" href="http://localhost:1313/posts/bai-so-7/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Hiểu về Async/Await trong JavaScript: Tạm biệt Callback Hell
     </h2>
   </header>
