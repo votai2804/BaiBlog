@@ -129,6 +129,18 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">WebSocket là gì? Tại sao Chat App lại cần nó?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>HTTP vs WebSocket HTTP: Mỗi lần muốn lấy dữ liệu mới, Client phải “hỏi” Server (Request) rồi Server mới trả lời (Response). Giống như bạn nhắn tin hỏi người yêu: “Em ăn cơm chưa?” rồi chờ trả lời. WebSocket: Tạo một đường ống kết nối 2 chiều liên tục. Server có thể tự động đẩy tin nhắn về Client bất cứ lúc nào mà không cần hỏi. Giống như đang gọi điện thoại nói chuyện trực tiếp. Code Demo WebSocket Client // 1. Tạo kết nối đến Server const socket = new WebSocket(&#39;wss://echo.websocket.org&#39;); // 2. Lắng nghe khi kết nối thành công socket.onopen = function(event) { console.log(&#34;Đã kết nối!&#34;); socket.send(&#34;Xin chào Server!&#34;); // Gửi tin nhắn }; // 3. Nhận tin nhắn từ Server gửi về socket.onmessage = function(event) { console.log(&#34;Tin nhắn từ Server:&#34;, event.data); }; </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-26 15:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
+  <a class="entry-link" aria-label="post link to WebSocket là gì? Tại sao Chat App lại cần nó?" href="http://localhost:1313/posts/bai-so-8/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Hướng dẫn Fetch API: Cách lấy dữ liệu từ Server chuẩn hiện đại
     </h2>
   </header>

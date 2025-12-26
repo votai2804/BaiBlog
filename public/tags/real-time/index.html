@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | Blog Lập Trình Mạng</title>
+<title>Real-Time | Blog Lập Trình Mạng</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - Blog Lập Trình Mạng">
+<meta name="description" content="Chia sẻ kiến thức lập trình Java &amp; JavaScript">
 <meta name="author" content="Võ Tấn Tài">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="http://localhost:1313/tags/real-time/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/real-time/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/real-time/">
 <noscript>
     <style>
         #theme-toggle,
@@ -109,7 +109,7 @@
             </li>
             <li>
                 <a href="http://localhost:1313/posts/" title="Blog">
-                    <span class="active">Blog</span>
+                    <span>Blog</span>
                 </a>
             </li>
             <li>
@@ -123,60 +123,21 @@
 <main class="main"> 
 <header class="page-header">
   <h1>
-    Posts
+    Real-Time
   </h1>
 </header>
 
-<article class="post-entry"> 
+<article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Design Patterns - Những &#39;mẫu thiết kế&#39; cứu cánh cho lập trình viên
+    <h2 class="entry-hint-parent">WebSocket là gì? Tại sao Chat App lại cần nó?
     </h2>
   </header>
   <div class="entry-content">
-    <p>Design Patterns là gì? Bạn có bao giờ cảm thấy mình đang “phát minh lại cái bánh xe” khi giải quyết một vấn đề code không? Design Patterns chính là tập hợp những giải pháp tối ưu đã được các chuyên gia đúc kết và kiểm chứng qua hàng thập kỷ cho những vấn đề lặp đi lặp lại đó.
-Dưới đây là 3 mẫu (patterns) nhập môn mà bất kỳ lập trình viên nào cũng nên biết:
-...</p>
+    <p>HTTP vs WebSocket HTTP: Mỗi lần muốn lấy dữ liệu mới, Client phải “hỏi” Server (Request) rồi Server mới trả lời (Response). Giống như bạn nhắn tin hỏi người yêu: “Em ăn cơm chưa?” rồi chờ trả lời. WebSocket: Tạo một đường ống kết nối 2 chiều liên tục. Server có thể tự động đẩy tin nhắn về Client bất cứ lúc nào mà không cần hỏi. Giống như đang gọi điện thoại nói chuyện trực tiếp. Code Demo WebSocket Client // 1. Tạo kết nối đến Server const socket = new WebSocket(&#39;wss://echo.websocket.org&#39;); // 2. Lắng nghe khi kết nối thành công socket.onopen = function(event) { console.log(&#34;Đã kết nối!&#34;); socket.send(&#34;Xin chào Server!&#34;); // Gửi tin nhắn }; // 3. Nhận tin nhắn từ Server gửi về socket.onmessage = function(event) { console.log(&#34;Tin nhắn từ Server:&#34;, event.data); }; </p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-26 11:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
-  <a class="entry-link" aria-label="post link to Design Patterns - Những &#39;mẫu thiết kế&#39; cứu cánh cho lập trình viên" href="http://localhost:1313/posts/bai-so-5/"></a>
+  <footer class="entry-footer"><span title='2025-12-26 15:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
+  <a class="entry-link" aria-label="post link to WebSocket là gì? Tại sao Chat App lại cần nó?" href="http://localhost:1313/posts/bai-so-8/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Docker là gì? Tại sao lập trình viên hiện đại cần biết?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Vấn đề muôn thuở: “Code chạy trên máy em bình thường…” Bạn đã bao giờ gặp tình huống code chạy ngon lành trên máy cá nhân (Local) nhưng khi đưa lên máy chủ (Server) hoặc máy của đồng nghiệp thì lại báo lỗi tùm lum chưa? Đây là nỗi đau đầu chung của mọi lập trình viên.
-Docker sinh ra chính là để giải quyết vấn đề đó bằng công nghệ Container.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-26 10:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>2 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
-  <a class="entry-link" aria-label="post link to Docker là gì? Tại sao lập trình viên hiện đại cần biết?" href="http://localhost:1313/posts/bai-so-4/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Đừng chỉ git push, hãy học Git Flow để làm việc nhóm
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Tại sao cần Git Flow? Khi làm việc một mình (solo), bạn có thể thoải mái git push thẳng lên nhánh main. Nhưng khi làm việc nhóm, việc tất cả mọi người cùng đẩy code lên một nhánh duy nhất sẽ gây ra “thảm họa” xung đột (conflict) và khiến mã nguồn thiếu ổn định.
-Git Flow là một mô hình quản lý nhánh giúp phân chia công việc rõ ràng:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-26 09:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>2 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
-  <a class="entry-link" aria-label="post link to Đừng chỉ git push, hãy học Git Flow để làm việc nhóm" href="http://localhost:1313/posts/bai-so-3/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/posts/">
-      «&nbsp;Trang trước&nbsp;
-    </a>
-    <a class="next" href="http://localhost:1313/posts/page/3/">Trang tiếp theo&nbsp;&nbsp;»
-    </a>
-  </nav>
-</footer>
     </main>
     
 <footer class="footer">
