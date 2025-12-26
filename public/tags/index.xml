@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
-    <lastBuildDate>Fri, 26 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 09:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/devops/</link>
+      <pubDate>Fri, 26 Dec 2025 09:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/git/</link>
+      <pubDate>Fri, 26 Dec 2025 09:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teamwork</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/teamwork/</link>
+      <pubDate>Fri, 26 Dec 2025 09:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/teamwork/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/api/</link>
+      <pubDate>Fri, 26 Dec 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ASP.NET</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/asp.net/</link>
+      <pubDate>Fri, 26 Dec 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/asp.net/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/backend/</link>
+      <pubDate>Fri, 26 Dec 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NodeJS</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/tags/nodejs/</link>
+      <pubDate>Fri, 26 Dec 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/tags/nodejs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Clean Code</title>
       <link>http://localhost:1313/votai2804/BaiBlog.git/tags/clean-code/</link>

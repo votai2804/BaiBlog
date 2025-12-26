@@ -1,6 +1,6 @@
 +++
 title = "RESTful API là gì? So sánh nhanh ASP.NET Core và Node.js"
-date = "2025-12-26T21:00:00+07:00"
+date = "2025-12-26T08:00:00+07:00"
 draft = false
 author = "Võ Tấn Tài"
 tags = ["Backend", "API", "NodeJS", "ASP.NET"]

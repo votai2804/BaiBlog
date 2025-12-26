@@ -6,6 +6,14 @@
     <description>Recent content in ASP.NET on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
+    <lastBuildDate>Fri, 26 Dec 2025 08:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RESTful API là gì? So sánh nhanh ASP.NET Core và Node.js</title>
+      <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-2/</link>
+      <pubDate>Fri, 26 Dec 2025 08:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-2/</guid>
+      <description>Tìm hiểu về RESTful API và cách lựa chọn giữa hai công nghệ phổ biến nhất hiện nay: ASP.NET Core và Node.js.</description>
+    </item>
   </channel>
 </rss>
