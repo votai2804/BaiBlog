@@ -64,5 +64,12 @@
       <guid>http://localhost:1313/posts/bai-so-1/</guid>
       <description>Clean Code không phải là làm cho mã chạy nhanh hơn, mà là làm cho mã dễ đọc và dễ bảo trì hơn.</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/bai-so-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bai-so-9/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

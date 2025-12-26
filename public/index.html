@@ -147,6 +147,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">JSON và những sai lầm thường gặp khi gọi API
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>JSON là gì? JSON (JavaScript Object Notation) là định dạng dữ liệu phổ biến nhất để giao tiếp giữa Client và Server.
+JSON.stringify(obj): Biến Object JS thành chuỗi JSON (để gửi đi). JSON.parse(str): Biến chuỗi JSON thành Object JS (để sử dụng). Sai lầm khi dùng Fetch: Không check lỗi HTTP! Rất nhiều bạn mới học nghĩ rằng dùng catch() là đủ. Nhưng thực tế, fetch() không chạy vào catch khi Server trả về lỗi 404 (Not Found) hay 500 (Server Error). Nó chỉ tính là lỗi khi mất mạng.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-26 16:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
+  <a class="entry-link" aria-label="post link to JSON và những sai lầm thường gặp khi gọi API" href="http://localhost:1313/posts/bai-so-9/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">WebSocket là gì? Tại sao Chat App lại cần nó?
     </h2>
   </header>
@@ -169,20 +183,6 @@
   </div>
   <footer class="entry-footer"><span title='2025-12-26 14:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
   <a class="entry-link" aria-label="post link to Hướng dẫn Fetch API: Cách lấy dữ liệu từ Server chuẩn hiện đại" href="http://localhost:1313/posts/bai-so-7/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hiểu về Async/Await trong JavaScript: Tạm biệt Callback Hell
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Vấn đề của JavaScript cũ JavaScript là ngôn ngữ đơn luồng (single-threaded). Trước đây, để xử lý các tác vụ tốn thời gian như gọi API hay đọc file, chúng ta phải dùng Callback, dẫn đến tình trạng “Callback Hell” (code lồng nhau quá nhiều).
-Async/Await là gì? Từ ES2017, async/await ra đời giúp viết code bất đồng bộ trông giống như đồng bộ (tuần tự), cực kỳ dễ đọc.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-26 13:00:00 +0700 +07'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 phút</span>&nbsp;·&nbsp;<span>Võ Tấn Tài</span></footer>
-  <a class="entry-link" aria-label="post link to Hiểu về Async/Await trong JavaScript: Tạm biệt Callback Hell" href="http://localhost:1313/posts/bai-so-6/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
