@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/votai2804/BaiBlog.git/posts/</link>
-    <description>Recent content in Posts on Blog Lập Trình Mạng</description>
+    <title>Clean Code on Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/votai2804/BaiBlog.git/tags/clean-code/</link>
+    <description>Recent content in Clean Code on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
     <lastBuildDate>Fri, 26 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/votai2804/BaiBlog.git/tags/clean-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kỹ thuật viết mã nguồn sạch (Clean Code) cho người mới</title>
       <link>http://localhost:1313/votai2804/BaiBlog.git/posts/bai-so-1/</link>
