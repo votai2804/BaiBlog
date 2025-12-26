@@ -6,8 +6,15 @@
     <description>Recent content on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
-    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 13:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiểu về Async/Await trong JavaScript: Tạm biệt Callback Hell</title>
+      <link>http://localhost:1313/posts/bai-so-6/</link>
+      <pubDate>Fri, 26 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/bai-so-6/</guid>
+      <description>Hướng dẫn sử dụng Async/Await để viết code bất đồng bộ gọn gàng và dễ đọc hơn.</description>
+    </item>
     <item>
       <title>Design Patterns - Những &#39;mẫu thiết kế&#39; cứu cánh cho lập trình viên</title>
       <link>http://localhost:1313/posts/bai-so-5/</link>

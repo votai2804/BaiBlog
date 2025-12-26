@@ -2,7 +2,8 @@ baseURL = "https://yourusername.github.io/"
 languageCode = "vi"
 title = "Blog Lập Trình Mạng"
 theme = "PaperMod"
-paginate = 3  # <--- Dòng này quy định chỉ hiện 3 bài mới nhất ở trang chủ
+[pagination]
+  pagerSize = 3
 
 [params]
   author = "Võ Tấn Tài"
@@ -13,15 +14,13 @@ paginate = 3  # <--- Dòng này quy định chỉ hiện 3 bài mới nhất ở
   # Cấu hình phần giới thiệu to đẹp ở trang chủ
   [params.homeInfoParams]
     Title = "Kiến thức mình muốn chia sẻ" 
-    Content = "Chào mừng bạn đến với Blog cá nhân của Võ Tấn Tài. Tại đây mình lưu trữ và chia sẻ những kinh nghiệm về Lập trình mạng, Backend và Clean Code."
+    Content = "Chào mừng bạn đến với Blog cá nhân của Võ Tấn Tài. Tại đây mình lưu trữ và chia sẻ những kinh nghiệm về  lập trình Java & JavaScript"
 
   # Các icon mạng xã hội (tùy chọn)
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/yourusername"
-  [[params.socialIcons]]
-    name = "facebook"
-    url = "https://facebook.com/yourusername"
+
 
 [menu]
   [[menu.main]]
