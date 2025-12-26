@@ -19,5 +19,5 @@ theme = "PaperMod"
     weight = 2
   [[menu.main]]
     name = "Profile"
-    url = "/about/" # Trang giới thiệu bản thân
+    url = "/about/" 
     weight = 3
